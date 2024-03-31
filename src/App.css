@@ -18,7 +18,7 @@ body {
 
 .background-image {
   /* Set the background image and its size */
-  background-image: url('./home.jpeg');
+  background-image: url('./home1.jpeg');
   background-size: cover; /* Fit the background image within the container without distorting its aspect ratio */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   width: 100%; /* Ensure the background image fills the container horizontally */
