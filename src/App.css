@@ -1,0 +1,58 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 100vh; /* Set the container height to full viewport height */
+  overflow: hidden; 
+  /* Hide any overflow from the container */
+}
+
+.background-image {
+  /* Set the background image and its size */
+  background-image: url('./home1.jpeg');
+  background-size: cover; /* Fit the background image within the container without distorting its aspect ratio */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  width: 100%; /* Ensure the background image fills the container horizontally */
+  height: 100%; 
+  /* Ensure the background %%%image fills the container vertically */
+}
+
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  pointer-events: none;
+  cursor: none;  /* Prevent cursor interaction with the text */
+}
+
+
+.overlay-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.overlay-text h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.conatct{
+  margin: 4px 4px;
+}
+.conatct-div{
+  margin: 4px 4px;;
+  padding: 14px 14px;
+}
